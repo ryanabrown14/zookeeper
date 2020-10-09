@@ -6,7 +6,7 @@ const app = express();
 function filterByQuery(query, animalsArray) {
   let personaliryTraitsArray = [];
 
-  //we save the animalsArray as filtered results here:
+  //we save the animalsArray as filtered results here: some other stuff
   let filteredResults = animalsArray;
   if (query.personalityTraits) {
     // Save personalityTraits as a dedicated array.
